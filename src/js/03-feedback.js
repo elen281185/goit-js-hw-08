@@ -1,21 +1,5 @@
 import throttle from 'lodash.throttle';
 
-//const LS_KEY = "feedback-form-state";
-//const form = document.querySelector(".feedback-form");
-
-//form.elements.message.value = localStorage.getItem(LS_KEY) ?? "";
-
-//form.addEventListener("input", (evt) => {
- // localStorage.setItem(LS_KEY, evt.target.value);
-//});
-
-//form.addEventListener("submit", (evt) => {
-//  evt.preventDefault();
-//  localStorage.removeItem(LS_KEY);
- // form.reset();
-//});
-
-//////////////////////////////////////
 const LS_KEY = 'feedback-form-state';
 
 form = document.querySelector('.feedback-form');
